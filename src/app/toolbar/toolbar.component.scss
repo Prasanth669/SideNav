@@ -1,0 +1,64 @@
+
+.container{
+    padding-top: 10px;
+    width: 100%;
+}
+
+.nav-bar{
+    justify-content: space-between;
+    background-color: #7DD0F0;
+}
+span{
+    padding-right: 2rem;
+    
+}
+.float-right{
+    text-decoration: none;
+    margin-right: 20%;
+    
+}
+.mat-icon{
+    padding-top: 5%;
+}
+.company{
+    font-size:30px;
+    color:white;
+}
+ul {
+    margin: 0 auto;
+    padding: 0;
+
+    li {
+        padding: 17px 25px;
+        list-style: none;
+        display: inline-block;
+
+        a {
+            display: block;
+            font-size: 20px;
+            width: 100%;
+            font-weight: 400;
+            min-height: 35px;
+            color: white;
+            text-decoration: none;
+
+           
+        }
+    }
+}
+
+.active {
+    border: 2px solid white;
+    text-align: center;
+    padding: 0.4rem !important;
+    //padding-bottom: 0.5rem !important;
+    height: 45px;
+    width: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.not-active {
+    padding: 1rem;
+    cursor: pointer;
+}

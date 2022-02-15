@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Autotac'`, () => {
+  it(`should have as title 'autotac-frontend'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Autotac');
+    expect(app.title).toEqual('autotac-frontend');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Autotac app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('autotac-frontend app is running!');
   });
 });
